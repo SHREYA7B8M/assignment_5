@@ -26,7 +26,7 @@ namespace assignment_5
                 if (username == validUsername && password == validPassword)
                 {
                     Console.WriteLine("Login successful...");
-                    return; // Exit the program
+                    return; 
                 }
                 else if (username == validUsername)
                 {
